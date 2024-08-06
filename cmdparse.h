@@ -1,0 +1,1 @@
+typedef struct _CMD {	char	*name ;	int		id ;	} CMD_ENTRY ;/*------------------------------------------------------------------							Protypes------------------------------------------------------------------*/int getCommandNum( CMD_ENTRY *cmds, char *inputStr, int *length ) ;int match( char *token, char *string ) ;

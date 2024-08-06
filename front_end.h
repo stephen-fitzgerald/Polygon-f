@@ -1,0 +1,1 @@
+/* prototypes for frontend.c */void	clear_screen( void ) ;int get_choice( int lo, int hi, int dflt ) ;double get_double( double dflt, int *returnHit ) ;int	main_menu( void ) ;FILE	*get_out_file( char *name, char *title_str ) ;FILE	*get_in_file( char *name ) ;int		myfprintf( FILE* out, char* format, ... ) ;
